@@ -3,7 +3,7 @@ layout: page
 permalink: /trender/
 title: Trender
 tags: [trender, user guide, configuration, manuel]
-imagefeature:trender.png
+imagefeature:./images/trender/trender.png
 chart: false
 ---
 Trender
@@ -11,7 +11,7 @@ Trender
 
 The Trender is an objet translating different types of information into light.
 
-*Read this in other languages: [English](README.md), [Français](README.fr.md), [Brezhoneg](README.bzh.md)*
+*Read this in other languages: [English](trender.md), [Français](trender.fr.md), [Brezhoneg](trender.bzh.md)*
 
 ## Table of Contents
   - [Get started](#get-started)
@@ -29,7 +29,7 @@ The procedure to setup your Trender is:
 
 You should see the following screen:
 
-![Main screen](trender/main.png)
+![Main screen](images/trender/main.png)
 
  1. Configure WiFi
  2. Configure WiFi (No Scan)
@@ -81,7 +81,7 @@ Trender allows to set 3 fully customizable thresholds.
 From the WiFi configure menu, once you set *1* in the mode window, come back to
 the main page. A new menu will be displayed.
 
-![Color](trender/tk.png)
+![Color](images/trender/tk.png)
 
 Select the menu **TIMEKEEPER CONFIGURATION**
 
@@ -91,11 +91,11 @@ You can configure:
  * the duration
  * 3 intermediate steps
 
-![Color](trender/color.png)
+![Color](images/trender/color.png)
 
 The duration and different timers can be defined as follows:
 
-![Color](trender/timekeeper-en.png)
+![Color](images/trender/timekeeper-en.png)
 
 
 ### Notification
@@ -104,8 +104,10 @@ The Trender may translate web information into light.
 You must configure a web public access point. You must select the SSID and
 enter the password. Then you must select the ThingSpeak channel ID.
 
-![Notif](trender/ThingSpeak.png)
+![Notif](images/trender/ThingSpeak.png)
 
+### configuration
+TODO
 
 ### Demo
 
@@ -113,4 +115,3 @@ The Demo mode can be started from the Timekeeper menu.
 Select the submenu **Color** then tick **rainbow** or choose the color you want.
 
 ## FAQ
-
