@@ -6,6 +6,7 @@ tags: [trender, user guide, configuration, manuel]
 imagefeature:images/trender/trender.png
 chart: false
 ---
+#Trender
 
 ![Trender](images/trender/trender.png)
 
