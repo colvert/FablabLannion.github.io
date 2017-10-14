@@ -3,11 +3,13 @@ layout: page
 permalink: /trender/
 title: Trender
 tags: [trender, user guide, configuration, manuel]
-imagefeature:./images/trender/trender.png
+imagefeature:images/trender/trender.png
 chart: false
 ---
 Trender
-============
+=======
+
+![Trender](images/trender/trender.png)
 
 The Trender is an objet translating different types of information into light.
 
@@ -72,6 +74,11 @@ window in the **Configure WiFi** mode. A green light will blink to indicate that
 Once in timekeeper mode, you may come back to notification mode by putting *0*
 in the mode window or clicking on the **Reset** menu.
 
+### Demo
+
+The Demo mode can be started from the Timekeeper menu.
+Select the submenu **Color** then tick **rainbow** or choose the color you want.
+
 
 ### Timekeeper
 
@@ -106,12 +113,8 @@ enter the password. Then you must select the ThingSpeak channel ID.
 
 ![Notif](images/trender/ThingSpeak.png)
 
-### configuration
+#### Configuration
 TODO
 
-### Demo
-
-The Demo mode can be started from the Timekeeper menu.
-Select the submenu **Color** then tick **rainbow** or choose the color you want.
 
 ## FAQ
