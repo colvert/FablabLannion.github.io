@@ -6,7 +6,8 @@ tags: [trender, user guide, configuration, manuel]
 imagefeature:images/trender/trender.png
 chart: false
 ---
-#Trender
+by Fablab Lannion
+=================
 
 ![Trender](images/trender/trender.png)
 
