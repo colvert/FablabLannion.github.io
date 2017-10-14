@@ -2,12 +2,14 @@
 layout: page
 permalink: /trender/
 title: Trender
+description: "Trender.."
 tags: [trender, user guide, configuration, manuel]
 imagefeature:images/trender/trender.png
 chart: false
 ---
-by Fablab Lannion
-=================
+
+Trender
+=======
 
 ![Trender](images/trender/trender.png)
 
@@ -20,9 +22,9 @@ The Trender is an objet translating different types of information into light.
 ## Table of Contents
   - [Get started](#get-started)
   - [Modes](#modes)
-    - [Time keeper](#time-keeper)
-    - [Notification](#notification)
     - [Demo](#demo)
+    - [Timekeeper](#time-keeper)
+    - [Notification](#notification)
   - [FAQ](#faq)
 
 ## Get started
