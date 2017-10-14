@@ -6,10 +6,10 @@ tags: [trender, user guide, configuration, manuel]
 imagefeature:images/trender/trender.png
 chart: false
 ---
-Trender
-=======
 
 ![Trender](images/trender/trender.png)
+
+> "It is during our darkest moments that we must focus to see the light." Aristote
 
 The Trender is an objet translating different types of information into light.
 
