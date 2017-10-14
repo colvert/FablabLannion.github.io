@@ -1,0 +1,127 @@
+---
+layout: page
+permalink: /trender/
+title: Trender
+description: "Trender.."
+tags: [trender, user guide, configuration, manuel]
+imagefeature:images/trender/trender.png
+chart: false
+---
+
+Trender
+=======
+
+![Trender](images/trender/trender.png)
+
+> "C'est au cours de nos moments les plus sombres que nous devons nous concentrer pour voir la lumière.." Aristote
+
+Le Trender est un objet qui transforme des informations en lumière.
+
+*Lire ceci dans une notre langue: [English](trender.md), [Français](trender.fr.md), [Brezhoneg](trender.bzh.md)*
+
+## Table des matières
+  - [Prise en main](#get-started)
+  - [Modes](#modes)
+    - [Démo](#demo)
+    - [Minuteur](#time-keeper)
+    - [Notification](#notification)
+  - [Q&A](#faq)
+
+## Prise en main
+La procédure pour démarrer votre trender est:
+  * Connecter le Trender à une source d'alimentation via le câble USB, une lumière doit apparaître à la mise sous tension de l'appareil.
+  * Depuis votre téléphone ou votre ordinateur, sélectionner le réseau WiFI dont le SSID commence par TRENDER-
+  * Si aucune fenêtre n'apparaît, ouvrez un navigateur Internet et tapez http://192.168.4.1
+
+Vous devriez voir l'écran suivant:
+
+![Main screen](images/trender/main.png)
+
+ 1. Configure WiFi
+ 2. Configure WiFi (No Scan)
+ 3. Info
+ 4. Reset
+
+### Configure WiFi
+
+Le menu "Configure WiFi" permet de connecter le Trender à Internet via une passerelle (boxe Internet, Téléphone, ..) et le channel ThingSpeak de notification.
+Le Trender se reconnectera automatiquement à un point d'accès déjà configuré si le réseau est disponible.
+Il est possible depuis ce menu de lister tous les réseaux WiFi disponibles.
+
+### Configure WiFi (No Scan)
+
+Le menu "Configure WiFi (No scan)" permet de configurer le mode notification et plus précisément le channel ThingSpeak.
+
+### Info
+
+Ce menu fournit des informations sur le Trender (Chip ID, Adresse IP, MAC, ...).
+
+### Reset
+
+Ce menu permet de reconfigurer le Trender dans son état initial.
+**Attention tous les paramètres de configuration seront effacés!**
+Les paramètres de connection WiFI sont notamment effacés et le mode par défeature
+(notification) est restauré.
+
+
+
+## Modes
+
+Le Trender supporte plusieurs modes:
+ * Démo
+ * Minuteur
+ * Système de notification  (twitter, jenkins)
+
+Par défault le Trender est initialisé en mode Notification.
+
+Vou pouvez passer d'un mode à un autre en rentrant *1* dans le champ mode
+du menu **Configure WiFi**. Une lumière verte indiquera que le changement a
+été pris en compte.
+
+Une fois en mode Minuteur, vous pouvez revenir en mode Notification via
+le menu **Reset**.
+
+### Démo
+
+Le mode Démo peut être démarré depuis le menu Minuteur.
+Sélectionnez le sous menu **Color** puis sélectionner  **rainbow** (jeu de
+lumières aléatoires) ou choisissez votre couleur via le sélecteur.
+
+
+### Minuteur
+
+Un minuteur permet de mieux gérer son temps. Le Trender permet la
+personnalisation de 3 seuils.
+
+Depuis le menu WiFi configure menu, une fois le mode changé, revenez sur la
+page principale (http://192.168.4.1).
+
+![Color](images/trender/tk.png)
+
+Sélectionnez le menu **TIMEKEEPER CONFIGURATION**
+
+#### Configuration
+
+Vous pouvez personnaliser:
+ * une durée totale
+ * 3 étapes intermédiaires
+
+![Color](images/trender/color.png)
+
+La durée et les étapes peuvent être définies comme suit:
+
+![Color](images/trender/timekeeper-fr.png)
+
+
+### Notification
+
+Le Trender peut transformer des notifications en lumière.
+Vous devez configurer le point d'accès et le channel ThingSpeak.
+
+![Notif](images/trender/ThingSpeak.png)
+
+#### Configuration
+TODO
+
+
+## FAQ

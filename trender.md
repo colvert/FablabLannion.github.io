@@ -30,7 +30,7 @@ The Trender is an objet translating different types of information into light.
 ## Get started
 The procedure to setup your Trender is:
   * Connect your Trender to a power supply through the USB cable, a light cycle will start to indicate that the Trender is properly powered.
-  * From your mobile phone or your computer, select the Wifi network whith SSID starting with TRENDER-
+  * From your mobile phone or your computer, select the WiFi network whith SSID starting with TRENDER-
   * If the pop-up connection window is not automatically displayed, open a web browser and enter the url http://192.168.4.1
 
 You should see the following screen:
@@ -44,13 +44,13 @@ You should see the following screen:
 
 ### Configure WiFi
 
-The "Configure WiFi" mode allows to connect the Trender to the Web.
+The "Configure WiFi" menu allows to connect the Trender to the Web.
 The Trender will connect automatically if it has been already configured.
 It is possible to scan all the access points.
 
 ### Configure WiFi (No Scan)
 
-The "Configure WiFi (No scan)" can be used to configure only the ThingSpeack channel.
+The "Configure WiFi (No scan)" menu can be used to configure only the ThingSpeack channel.
 
 ### Info
 
@@ -73,7 +73,7 @@ The Trender supports several modes. You can use it as:
 By default the Trender is in Notification mode.
 
 You can switch from Notification to Timekeeper mode by putting *1* in the mode
-window in the **Configure WiFi** mode. A green light will blink to indicate that the mode has been changed.
+window in the **Configure WiFi** menu. A green light will blink to indicate that the mode has been changed.
 
 Once in timekeeper mode, you may come back to notification mode by putting *0*
 in the mode window or clicking on the **Reset** menu.
