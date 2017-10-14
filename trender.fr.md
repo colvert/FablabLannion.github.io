@@ -17,7 +17,7 @@ Trender
 
 Le Trender est un objet qui transforme des informations en lumière.
 
-*Lire ceci dans une notre langue: [English](trender.md), [Français](trender.fr.md), [Brezhoneg](trender.bzh.md)*
+*Lire ceci dans une autre langue: [English](trender.md), [Français](trender.fr.md), [Brezhoneg](trender.bzh.md)*
 
 ## Table des matières
   - [Prise en main](#get-started)
@@ -44,8 +44,10 @@ Vous devriez voir l'écran suivant:
 
 ### Configure WiFi
 
-Le menu "Configure WiFi" permet de connecter le Trender à Internet via une passerelle (boxe Internet, Téléphone, ..) et le channel ThingSpeak de notification.
-Le Trender se reconnectera automatiquement à un point d'accès déjà configuré si le réseau est disponible.
+Le menu "Configure WiFi" permet de connecter le Trender à Internet via une passerelle (boxe Internet, Téléphone, ..) ainsi que le channel ThingSpeak de notification.
+
+Le Trender se reconnectera automatiquement à un point d'accès déjà configuré
+si il a été configuré précédemment et si le réseau est disponible.
 Il est possible depuis ce menu de lister tous les réseaux WiFi disponibles.
 
 ### Configure WiFi (No Scan)
@@ -60,7 +62,8 @@ Ce menu fournit des informations sur le Trender (Chip ID, Adresse IP, MAC, ...).
 
 Ce menu permet de reconfigurer le Trender dans son état initial.
 **Attention tous les paramètres de configuration seront effacés!**
-Les paramètres de connection WiFI sont notamment effacés et le mode par défeature
+
+Les paramètres de connexion WiFI sont notamment effacés et le mode par défaut
 (notification) est restauré.
 
 
@@ -85,7 +88,7 @@ le menu **Reset**.
 
 Le mode Démo peut être démarré depuis le menu Minuteur.
 Sélectionnez le sous menu **Color** puis sélectionner  **rainbow** (jeu de
-lumières aléatoires) ou choisissez votre couleur via le sélecteur.
+lumières aléatoires) ou choisissez votre couleur favorite via le sélecteur.
 
 
 ### Minuteur
