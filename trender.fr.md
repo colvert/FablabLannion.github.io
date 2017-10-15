@@ -8,7 +8,6 @@ imagefeature: images/trender/trender.png
 chart: false
 ---
 
-
 ![Trender](images/trender/trender.png)
 
 > "C'est au cours de nos moments les plus sombres que nous devons nous concentrer pour voir la lumière.." Aristote
@@ -18,52 +17,13 @@ Le Trender est un objet qui transforme des informations en lumière.
 *Lire ceci dans une autre langue: [English](trender.md), [Français](trender.fr.md), [Brezhoneg](trender.bzh.md)*
 
 ## Table des matières
-  - [Prise en main](#get-started)
   - [Modes](#modes)
-    - [Démo](#demo)
-    - [Minuteur](#time-keeper)
+    - [Démo](#démo)
+    - [Minuteur](#minuteur)
     - [Notification](#notification)
   - [Q&A](#faq)
 
-## Prise en main
-La procédure pour démarrer votre trender est:
-  * Connecter le Trender à une source d'alimentation via le câble USB, une lumière doit apparaître à la mise sous tension de l'appareil.
-  * Depuis votre téléphone ou votre ordinateur, sélectionner le réseau WiFI dont le SSID commence par TRENDER-
-  * Si aucune fenêtre n'apparaît, ouvrez un navigateur Internet et tapez http://192.168.4.1
-
-Vous devriez voir l'écran suivant:
-
-![Main screen](images/trender/main.png)
-
- 1. Configure WiFi
- 2. Configure WiFi (No Scan)
- 3. Info
- 4. Reset
-
-### Configure WiFi
-
-Le menu "Configure WiFi" permet de connecter le Trender à Internet via une passerelle (boxe Internet, Téléphone, ..) ainsi que le channel ThingSpeak de notification.
-
-Le Trender se reconnectera automatiquement à un point d'accès déjà configuré
-si il a été configuré précédemment et si le réseau est disponible.
-Il est possible depuis ce menu de lister tous les réseaux WiFi disponibles.
-
-### Configure WiFi (No Scan)
-
-Le menu "Configure WiFi (No scan)" permet de configurer le mode notification et plus précisément le channel ThingSpeak.
-
-### Info
-
-Ce menu fournit des informations sur le Trender (Chip ID, Adresse IP, MAC, ...).
-
-### Reset
-
-Ce menu permet de reconfigurer le Trender dans son état initial.
-**Attention tous les paramètres de configuration seront effacés!**
-
-Les paramètres de connexion WiFI sont notamment effacés.
-
-
+Connectez le Trender à une source d'alimentation via le câble USB, une lumière doit apparaître à la mise sous tension de l'appareil.
 
 ## Modes
 
@@ -127,10 +87,49 @@ La durée et les étapes peuvent être définies comme suit:
 Le Trender peut transformer des notifications en lumière.
 Vous devez configurer le point d'accès et le channel ThingSpeak https://thingspeak.com/.
 
+La procédure pour démarrer votre trender est:
+  *  
+  * Depuis votre téléphone ou votre ordinateur, sélectionner le réseau WiFI dont le SSID commence par TRENDER-
+  * Si aucune fenêtre n'apparaît, ouvrez un navigateur Internet et tapez http://192.168.4.1
+
+Vous devriez voir l'écran suivant:
+
+![Main screen](images/trender/main.png)
+
+ 1. Configure WiFi
+ 2. Configure WiFi (No Scan)
+ 3. Info
+ 4. Reset
+
+### Configure WiFi
+
+Le menu "Configure WiFi" permet de connecter le Trender à Internet via une passerelle (boxe Internet, Téléphone, ..) ainsi que le channel ThingSpeak de notification.
+
+Le Trender se reconnectera automatiquement à un point d'accès déjà configuré
+si il a été configuré précédemment et si le réseau est disponible.
+Il est possible depuis ce menu de lister tous les réseaux WiFi disponibles.
+
 ![Notif](images/trender/ThingSpeak.png)
+
+### Configure WiFi (No Scan)
+
+Le menu "Configure WiFi (No scan)" permet de configurer le mode notification et plus précisément le channel ThingSpeak.
+
+### Info
+
+Ce menu fournit des informations sur le Trender (Chip ID, Adresse IP, MAC, ...).
+
+### Reset
+
+Ce menu permet de reconfigurer le Trender dans son état initial.
+**Attention tous les paramètres de configuration seront effacés!**
+
+Les paramètres de connexion WiFI sont notamment effacés.
+
 
 #### Configuration
 TODO
+
 
 
 ## FAQ
