@@ -4,7 +4,7 @@ permalink: /trender/
 title: Trender
 description: "Trender.."
 tags: [trender, user guide, configuration, manuel]
-imagefeature:images/trender/trender.png
+imagefeature: images/trender/trender.png
 chart: false
 ---
 
