@@ -8,8 +8,6 @@ imagefeature: images/trender/trender.png
 chart: false
 ---
 
-Trender
-=======
 
 ![Trender](images/trender/trender.png)
 
