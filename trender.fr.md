@@ -21,7 +21,7 @@ Le Trender est un objet qui transforme des informations en lumière.
     - [Minuteur](#minuteur)
     - [Démo](#démo)
     - [Notification](#notification)
-  - [Q&A](#faq)
+  - [Q&A](#q&a)
 
 Connectez le Trender à une source d'alimentation via le câble USB, une lumière doit apparaître à la mise sous tension de l'appareil.
 
@@ -130,7 +130,7 @@ Ce menu permet de reconfigurer le Trender dans son état initial.
 Les paramètres de connexion WiFI sont notamment effacés.
 
 
-## FAQ
+## Q&A
 
 Q: Où est le code?
 A: https://github.com/FablabLannion/Trender

@@ -19,8 +19,8 @@ The Trender is an objet translating different types of information into light.
 
 ## Table of Contents
 - [Modes](#modes)
-  - [Demo](#demo)
   - [Timekeeper](#timekeeper)
+  - [Demo](#demo)
   - [Notification](#notification)
 - [FAQ](#faq)
 
