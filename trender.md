@@ -44,8 +44,8 @@ You should see the following screen:
 
 ### Configure WiFi
 
-The "Configure WiFi" menu allows to connect the Trender to the Web.
-The Trender will connect automatically if it has been already configured.
+The "Configure WiFi" menu allows to connect the Trender to the Web as well as the ThingSpeak channel for the Notification mode.
+The Trender will connect automatically if it has been already configured and if the network is reachable.
 It is possible to scan all the access points.
 
 ### Configure WiFi (No Scan)
@@ -58,8 +58,8 @@ This menu provides Trender physical information (Chip ID, IP Address, MAC, ...).
 
 ### Reset
 
-This menu can be used to perform a factory reset. All the previous parameters
-(especially the WiFi configuration) are cleaned and the mode is set back to notification.
+This menu can be used to perform a factory reset. **Be careful! All the previous parameters
+(especially the WiFi configuration) will be cleaned.**
 
 
 
@@ -72,16 +72,21 @@ The Trender supports several modes. You can use it as:
 
 By default the Trender is in Notification mode.
 
-You can switch from Notification to Timekeeper mode by putting *1* in the mode
-window in the **Configure WiFi** menu. A green light will blink to indicate that the mode has been changed.
+![Color](images/trender/modes.png)
 
-Once in timekeeper mode, you may come back to notification mode by putting *0*
-in the mode window or clicking on the **Reset** menu.
+You can switch from Notification to Timekeeper mode by putting *1* in the mode
+window of the **Configure WiFi** menu.
+A green light will blink to indicate that the mode has been changed.
+The trender will restart and a new page will be displayed on the http://192.168.4.1.
+
+Once in timekeeper mode, you may come back to notification after Trender power restart.
 
 ### Demo
 
 The Demo mode can be started from the Timekeeper menu.
 Select the submenu **Color** then tick **rainbow** or choose the color you want.
+
+![Color](images/trender/demo_color.png)
 
 
 ### Timekeeper
@@ -91,6 +96,13 @@ Trender allows to set 3 fully customizable thresholds.
 
 From the WiFi configure menu, once you set *1* in the mode window, come back to
 the main page. A new menu will be displayed.
+
+You can:
+  * Cutomize your timekeeper
+  * Start your timekeeper
+  * Stop your timekeeper
+  * Get network info
+  * Start the Demo mode
 
 ![Color](images/trender/tk.png)
 
@@ -113,7 +125,7 @@ The duration and different timers can be defined as follows:
 
 The Trender may translate web information into light.
 You must configure a web public access point. You must select the SSID and
-enter the password. Then you must select the ThingSpeak channel ID.
+enter the password. Then you must select the ThingSpeak channel ID https://thingspeak.com/.
 
 ![Notif](images/trender/ThingSpeak.png)
 

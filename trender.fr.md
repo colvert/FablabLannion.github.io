@@ -63,8 +63,7 @@ Ce menu fournit des informations sur le Trender (Chip ID, Adresse IP, MAC, ...).
 Ce menu permet de reconfigurer le Trender dans son état initial.
 **Attention tous les paramètres de configuration seront effacés!**
 
-Les paramètres de connexion WiFI sont notamment effacés et le mode par défaut
-(notification) est restauré.
+Les paramètres de connexion WiFI sont notamment effacés.
 
 
 
@@ -77,12 +76,13 @@ Le Trender supporte plusieurs modes:
 
 Par défault le Trender est initialisé en mode Notification.
 
-Vou pouvez passer d'un mode à un autre en rentrant *1* dans le champ mode
+![Color](images/trender/modes-fr.png)
+
+Vou pouvez passer du mode Notification à Minuteur en entrant *1* dans le champ mode
 du menu **Configure WiFi**. Une lumière verte indiquera que le changement a
 été pris en compte.
 
-Une fois en mode Minuteur, vous pouvez revenir en mode Notification via
-le menu **Reset**.
+Une fois en mode Minuteur, vous pouvez revenir en mode Notification en redémarrant électriquement le Trender.
 
 ### Démo
 
@@ -90,14 +90,22 @@ Le mode Démo peut être démarré depuis le menu Minuteur.
 Sélectionnez le sous menu **Color** puis sélectionner  **rainbow** (jeu de
 lumières aléatoires) ou choisissez votre couleur favorite via le sélecteur.
 
+![Color](images/trender/demo_color.png)
 
 ### Minuteur
 
 Un minuteur permet de mieux gérer son temps. Le Trender permet la
 personnalisation de 3 seuils.
 
-Depuis le menu WiFi configure menu, une fois le mode changé, revenez sur la
+Depuis le menu "WiFi configure" menu, une fois le mode changé, revenez sur la
 page principale (http://192.168.4.1).
+
+Vous pouvez alors:
+  * Personnaliser votre Minuteur
+  * Démarrer votre Minuteur
+  * Arrêter votre Minuteur
+  * Obtenir des informations réseaux du trender
+  * Démarrer le mode démo
 
 ![Color](images/trender/tk.png)
 
@@ -119,7 +127,7 @@ La durée et les étapes peuvent être définies comme suit:
 ### Notification
 
 Le Trender peut transformer des notifications en lumière.
-Vous devez configurer le point d'accès et le channel ThingSpeak.
+Vous devez configurer le point d'accès et le channel ThingSpeak https://thingspeak.com/.
 
 ![Notif](images/trender/ThingSpeak.png)
 
