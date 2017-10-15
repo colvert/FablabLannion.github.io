@@ -18,8 +18,8 @@ Le Trender est un objet qui transforme des informations en lumière.
 
 ## Table des matières
   - [Modes](#modes)
-    - [Démo](#démo)
     - [Minuteur](#minuteur)
+    - [Démo](#démo)
     - [Notification](#notification)
   - [Q&A](#faq)
 
@@ -30,25 +30,18 @@ Connectez le Trender à une source d'alimentation via le câble USB, une lumièr
 Le Trender supporte plusieurs modes:
  * Démo
  * Minuteur
- * Système de notification  (twitter, jenkins)
+ * Système de notification  (twitter, jenkins,...)
 
 Par défault le Trender est initialisé en mode Notification.
 
 ![Color](images/trender/modes-fr.png)
 
-Vou pouvez passer du mode Notification à Minuteur en entrant *1* dans le champ mode
+Vous pouvez passer du mode Notification à Minuteur en entrant *1* dans le champ mode
 du menu **Configure WiFi**. Une lumière verte indiquera que le changement a
 été pris en compte.
 
 Une fois en mode Minuteur, vous pouvez revenir en mode Notification en redémarrant électriquement le Trender.
 
-### Démo
-
-Le mode Démo peut être démarré depuis le menu Minuteur.
-Sélectionnez le sous menu **Color** puis sélectionner  **rainbow** (jeu de
-lumières aléatoires) ou choisissez votre couleur favorite via le sélecteur.
-
-![Color](images/trender/demo_color.png)
 
 ### Minuteur
 
@@ -82,13 +75,21 @@ La durée et les étapes peuvent être définies comme suit:
 ![Color](images/trender/timekeeper-fr.png)
 
 
+### Démo
+
+Le mode Démo peut être démarré depuis le menu Minuteur.
+Sélectionnez le sous menu **Color** puis sélectionner  **rainbow** (jeu de
+lumières aléatoires) ou choisissez votre couleur favorite via le sélecteur.
+
+![Color](images/trender/demo_color.png)
+
+
 ### Notification
 
 Le Trender peut transformer des notifications en lumière.
 Vous devez configurer le point d'accès et le channel ThingSpeak https://thingspeak.com/.
 
 La procédure pour démarrer votre trender est:
-  *  
   * Depuis votre téléphone ou votre ordinateur, sélectionner le réseau WiFI dont le SSID commence par TRENDER-
   * Si aucune fenêtre n'apparaît, ouvrez un navigateur Internet et tapez http://192.168.4.1
 
@@ -101,7 +102,7 @@ Vous devriez voir l'écran suivant:
  3. Info
  4. Reset
 
-### Configure WiFi
+#### Configure WiFi
 
 Le menu "Configure WiFi" permet de connecter le Trender à Internet via une passerelle (boxe Internet, Téléphone, ..) ainsi que le channel ThingSpeak de notification.
 
@@ -111,15 +112,17 @@ Il est possible depuis ce menu de lister tous les réseaux WiFi disponibles.
 
 ![Notif](images/trender/ThingSpeak.png)
 
-### Configure WiFi (No Scan)
+TODO config ThinkSpeak
+
+#### Configure WiFi (No Scan)
 
 Le menu "Configure WiFi (No scan)" permet de configurer le mode notification et plus précisément le channel ThingSpeak.
 
-### Info
+#### Info
 
 Ce menu fournit des informations sur le Trender (Chip ID, Adresse IP, MAC, ...).
 
-### Reset
+#### Reset
 
 Ce menu permet de reconfigurer le Trender dans son état initial.
 **Attention tous les paramètres de configuration seront effacés!**
@@ -127,9 +130,13 @@ Ce menu permet de reconfigurer le Trender dans son état initial.
 Les paramètres de connexion WiFI sont notamment effacés.
 
 
-#### Configuration
-TODO
-
-
-
 ## FAQ
+
+Q: Où est le code?
+A: https://github.com/FablabLannion/Trender
+
+Q: Une autre référence?
+A: Une page wiki (en Français) est disponible http://wiki.fablab-lannion.org/index.php?title=Trender
+
+Q: Qui contacter?
+A: par mail trender@fablab-lannion.org, ou sur twitter.com/fablablannion
